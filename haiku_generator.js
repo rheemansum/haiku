@@ -32,6 +32,7 @@ function formatData(data){
 }
 
 var syllablesArr = formatData(cmudictFile);
+var structure = [[2,3],[2,2,3],5];
 
-console.log(haiku.createHaiku([[2,3],7,5], syllablesArr));
+console.log(haiku.createHaiku(structure, syllablesArr));
 
